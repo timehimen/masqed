@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <title>Masqed</title>
+</head>
+<body>
+<nav class="nav-bar">
+    <a href="/">
+        <img src="/img/logo.png" class="logo">
+    </a>
+    <div style="flex: 1 1 auto; text-align: center">
+        <ul class="nav">
+            <li><a href="/products/">Products</a></li>
+            <li><a href="/about-us/">About Us</a></li>
+            <li><a href="/buy-share/">Buy 1. Share 1</a></li>
+            <li><a href="/instructions/">Instructions</a></li>
+            <li><a href="/contact-us/">Contact Us</a></li>
+        </ul>
+    </div>
+    <div class="nav-cart">
+        <span class="cart">
+            <a href="/cart/"><span class="material-icons">shopping_cart</span></a>
+            <% if(cartItemCount > 0) { %>
+                <span class="bubble"><%= cartItemCount %></span>
+            <% } %>
+        </span>
+    </div>
+</nav>

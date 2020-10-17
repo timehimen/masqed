@@ -1,0 +1,18 @@
+<%- include('../templates/head') -%>
+
+<div class="page-body products">
+    <% products.forEach(product => { %>
+        <div class="product">
+            <div>
+                <img src="/products/<%= product.imageFile %>">
+            </div>
+            <h3 class="product-name"><%= product.productName %></h3>
+            <div class="flex" style="justify-content: space-between">
+                <div class="price">R<%= product.price %></div>
+                <a href="/add-to-cart/<%= product._id %>" class="cart-btn"><span class="material-icons">add_shopping_cart</span></a>
+            </div>
+        </div>
+    <% }) %>
+</div>
+
+<%- include('../templates/foot') -%>

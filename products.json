@@ -1,0 +1,47 @@
+[
+  {
+    "productName": "Adults - Colorful (4-Pack)",
+    "price": 159.99,
+    "imageFile": "product1.jpg"
+  },
+  {
+    "productName": "Adults - Divine (4-Pack)",
+    "price": 199.99,
+    "imageFile": "product2.jpg"
+  },
+  {
+    "productName": "Adults - Minimalist (4-Pack)",
+    "price": 139.99,
+    "imageFile": "product3.jpg"
+  },
+  {
+    "productName": "Adults - Neutrals (4-Pack)",
+    "price": 149.99,
+    "imageFile": "product4.jpg"
+  },
+  {
+    "productName": "Adults - Sophisticated (4-Pack)",
+    "price": 209.99,
+    "imageFile": "product5.jpg"
+  },
+  {
+    "productName": "Kids - Fashion (4-Pack)",
+    "price": 129.99,
+    "imageFile": "product6.jpg"
+  },
+  {
+    "productName": "Kids - Sporty (4-Pack)",
+    "price": 139.99,
+    "imageFile": "product7.jpg"
+  },
+  {
+    "productName": "Teens - Fashion (4-Pack)",
+    "price": 189.99,
+    "imageFile": "product8.jpg"
+  },
+  {
+    "productName": "Teens - Sporty (4-Pack)",
+    "price": 179.99,
+    "imageFile": "product9.jpg"
+  }
+]
